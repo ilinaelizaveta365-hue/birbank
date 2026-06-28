@@ -1,0 +1,47 @@
+#main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .cards{
+        width: 1128px;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f1f0f0;
+        .card{
+            margin-top: 63px;
+            display: flex;
+            img{
+                width: 480px;
+                height: 304px;
+            }
+            .txt{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h2{
+                    font-size: 40px;
+                }
+                p{
+                    color:#52575c;
+                }
+            }
+            .bu{
+                display: flex;
+                gap: 15px;
+                button{
+                    width: 131px;
+                    height: 60px;
+                    background-color: white;
+                    border: none;
+                    border-radius: 10px;
+                    a{
+                        text-decoration: none;
+                        color: #ec3342;
+                    }
+                }
+            }
+        }
+    }
+}
