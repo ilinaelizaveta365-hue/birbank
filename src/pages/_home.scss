@@ -160,7 +160,7 @@
     background-image: url(/img/mobile_widget_bg_0f0cb4d27c.png);
     text-align: center;
 
-    img{
+    img {
         width: 360px;
         height: 397px;
     }
@@ -205,12 +205,67 @@
                     font-size: 30px;
                     color: white;
                 }
-                .txt{
-                    p{
+
+                .txt {
+                    p {
                         font-size: 14px;
                     }
                 }
 
+            }
+        }
+    }
+}
+
+#kart {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+
+    .bir {
+        
+        width: 1128px;
+        height: 312px;
+        background-color: #25282b;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        
+        gap: 70px;
+        border-radius: 15px;
+        img{
+           
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            h2 {
+                color: white;
+            }
+
+            p {
+                color: white;
+            }
+
+            a {
+                width: 223px;
+                height: 56px;
+                background-color: white;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                text-decoration: none;
+                color: black;
+                i{
+                    color: black;
+                }
             }
         }
     }

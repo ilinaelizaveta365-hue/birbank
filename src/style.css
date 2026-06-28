@@ -250,4 +250,47 @@ header ul .a {
 }
 #mobil .app .buttons a .txt p {
   font-size: 14px;
+}
+
+#kart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+}
+#kart .bir {
+  width: 1128px;
+  height: 312px;
+  background-color: #25282b;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 70px;
+  border-radius: 15px;
+}
+#kart .bir .text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#kart .bir .text h2 {
+  color: white;
+}
+#kart .bir .text p {
+  color: white;
+}
+#kart .bir .text a {
+  width: 223px;
+  height: 56px;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+#kart .bir .text a i {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
