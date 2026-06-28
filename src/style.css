@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Finlandica+Text:ital,wght@0,100..900;1,100..900&family=Geist:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+header .hed-up {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+header .hed-up ul {
+  display: flex;
+  gap: 70px;
+  list-style-type: none;
+}
+header .hed-up ul li {
+  border: none;
+}
+header .hed-up ul li:hover {
+  border-bottom: 1px solid #ff0039;
+}
+header .hed-up ul li a {
+  text-decoration: none;
+  color: #9496ac;
+}
+header .hed-up .hed-r {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .hed-up .hed-r p {
+  font-size: 10px;
+}
+header .hed-up .hed-r a {
+  width: 142px;
+  height: 28px;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0039;
+  border-radius: 8px;
+  color: white;
+}
+header .hed-up .hed-r button {
+  background: transparent;
+  border: none;
+  color: #9496ac;
+}
+header .hed-d {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  width: 115px;
+  height: 60px;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+header ul .a {
+  text-decoration: none;
+  color: #9496ac;
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */
